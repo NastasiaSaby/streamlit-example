@@ -4,7 +4,7 @@ import requests
 st.title('Form example: What is your favourite film?')
 
 # fastapi endpoint
-url = 'http://fastapi:8000'
+url = 'http://51.11.235.7:8000'
 endpoint = '/postfilm'
 
 option = st.selectbox(
